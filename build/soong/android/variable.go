@@ -85,6 +85,7 @@ type ProductVariables struct {
 	Qcom_um_soong_namespace  *string `json:",omitempty"`
 	Recovery_skip_ev_rel_input  *bool `json:",omitempty"`
 	Should_wait_for_qsee  *bool `json:",omitempty"`
+	Java_Source_Overlays *string `json:",omitempty"`
 	Specific_camera_parameter_library  *string `json:",omitempty"`
 	Supports_extended_compress_format  *bool `json:",omitempty"`
 	Supports_hw_fde  *bool `json:",omitempty"`

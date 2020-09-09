@@ -202,7 +202,4 @@ include vendor/cesium/config/ota.mk
 # Cesium Style
 include vendor/cesiumstyle/config.mk
 
-# Customization
-include vendor/google-customization/config.mk
-
 -include $(WORKSPACE)/build_env/image-auto-bits.mk

@@ -1,5 +1,8 @@
 include vendor/cesium/config/BoardConfigKernel.mk
 
+# Safetynet
+TARGET_FORCE_BUILD_FINGERPRINT := google/redfin/redfin:11/RD1A.201105.003.C1/6886399:user/release-keys
+
 ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
 include vendor/cesium/config/BoardConfigQcom.mk
 endif
